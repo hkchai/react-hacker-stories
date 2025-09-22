@@ -86,7 +86,7 @@ const App = () => {
 
   return (
     <>
-      <h1>Hello App.jsx of React 19</h1>
+      <h1>Welcome to xbi.li, built with React 19</h1>
 
       <MyButton count = {count} setCount={setCount} />
       
