@@ -1,5 +1,8 @@
 # React + Vite
 
+[HKC 22 Sep, 2025] Use `npm create vite@latest react-hacker-stories` to create the project. This is dfferent from running `npm create-react-app@latest`
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
