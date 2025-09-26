@@ -1,4 +1,9 @@
-import { useState } from 'react'
+/* 
+  Alternative will be
+   "import {useState} from 'react'"  
+  Which can then `const [count, setCount] = useState(0)`
+*/
+import React from 'react'  
 import './App.css'
 
 {/* Using the map function within an array */}
@@ -52,7 +57,7 @@ const Search = () => {
 
 const MyButton = ({count, setCount}) => {
   
-  const [buttonText, setButtonText] = useState("I am a Button!")
+  const [buttonText, setButtonText] = React.useState("I am a Button!")
   const buttonTexts = [
     <button key="1">Tickle Me!</button>,
     <button key="2">Boop Nose!</button>,
@@ -82,7 +87,7 @@ const MyButton = ({count, setCount}) => {
 };// const MyButton
 
 const App = () => {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = React.useState(0)
 
   return (
     <>
