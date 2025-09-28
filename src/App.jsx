@@ -21,14 +21,16 @@ const user = {
   imageSize: 90,
 };
 
-
-const ProduceList = () => {
+/*
+   Comment here
+*/
+const List = (props) => {
   return (
     <>
-      <h2> Here is the list of produces</h2>
+      <h2> Here is the list of {props.listName}</h2>
       <ol>
       {
-        produces.map((produce) =>
+        props.list.map((produce) =>
           <li key={produce.id}>
             
             {/* Use 'pre' to preserve formatting */}
@@ -95,7 +97,7 @@ const App = () => {
 
       <MyButton count = {count} setCount={setCount} />
       
-      <ProduceList />
+      <List list={produces} listName="fine producezZzzzz"/>
     
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
