@@ -103,7 +103,13 @@ const App = () => {
 
   return (
     <>      
-      <h1>Welcome to stacoin.io, built with React 19</h1>
+      <h1>Welcome to stacoin.io, available for sale: sweetroam@outlook.com</h1>
+    </>
+  );
+/* [HKC 8 Feb, 2026] Archiving and commenting out List and Search functions
+  return (
+    <>      
+      <h1>Welcome to stacoin.io, available for sale: sweetroam@outlook.com</h1>
 
       <Search onSearch={handleSearch} />
 
@@ -125,6 +131,8 @@ const App = () => {
 
     </>
   );
+
+  */
 }// const App
 
 const List = (props) => {
